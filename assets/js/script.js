@@ -18,12 +18,12 @@ sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); }
 //video mute unmute
 const player = document.getElementById('player');
   player.addEventListener("mouseenter", function() {
-      player.muted = false;
-      // player.play();
+      // player.muted = false;
+      player.play();
   });
   player.addEventListener("mouseout", function() {
-      player.muted = true;
-      // player.pause();
+      // player.muted = true;
+      player.pause();
   });
 
 // testimonials variables
