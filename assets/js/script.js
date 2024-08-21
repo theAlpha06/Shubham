@@ -16,15 +16,15 @@ sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); }
 
 
 //video mute unmute
-const player = document.getElementById('player');
-  player.addEventListener("mouseenter", function() {
-      // player.muted = false;
-      player.play();
-  });
-  player.addEventListener("mouseout", function() {
-      // player.muted = true;
-      player.pause();
-  });
+// const player = document.getElementById('player');
+//   player.addEventListener("mouseenter", function() {
+//       // player.muted = false;
+//       player.play();
+//   });
+//   player.addEventListener("mouseout", function() {
+//       // player.muted = true;
+//       player.pause();
+//   });
 
 // testimonials variables
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
